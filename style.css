@@ -31,3 +31,121 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+ul {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #25133d;
+}
+
+.menu a:hover,
+.menu a:focus {
+    background-color: #48418e;
+    color: white;
+}
+
+.super a {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.vizual {
+    background-image: url("images/pozadi.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 30px;
+}
+
+.vizual img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-height: 300px;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 30px 0;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;  
+    color: #48418e;
+    padding:20px;
+}
+
+button1 {
+    background-color:#48418e;
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+button a {
+    color: white;
+}
+
+button1 a {
+    color: white;
+}
+
+.obsah  {
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.jedna, .dva {
+    margin-right: 30px;
+}
+
+.obsah img {
+    height: 70px;
+}
+
+.obsah p {
+    font-size: 13px;
+}
+
+footer {
+    background-color: #48418e;
+    text-align: center;
+    color: white;
+    padding: 0.1px;
+    margin: 0;
+    font-size: 10px;
+}
